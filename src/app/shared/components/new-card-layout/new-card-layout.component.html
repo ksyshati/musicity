@@ -1,0 +1,36 @@
+<router-outlet></router-outlet>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <app-navbar></app-navbar>
+            <form [formGroup]="form" (ngSubmit)="submit()">
+            <div
+                    class="form-group mb-3 element-margin"
+                    [ngClass]="{invalid: form.get('name').invalid && form.get('name').touched}"
+            >
+                <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Name"
+                        aria-label="Name"
+                        aria-describedby="basic-addon1"
+                        formControlName="name"
+                >
+                <span
+                        *ngIf="form.get('name').invalid && form.get('name').touched">
+              <span *ngIf="form.get('name').errors.required">
+                This field can not be empty
+              </span>
+                </span>
+            <button
+                    class="btn btn-warning"
+                    type="submit"
+                    [disabled]="form.invalid"
+            >Create</button>
+            </div>
+            </form>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+.text-color{
+  font-family: "Bahnschrift";
+  color: #cbc9bb;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  margin: 0 25% 0 25%;
+}
+
+.navbar a {
+  color: #cbc9bb;
+  text-align: center;
+  padding: 7px 7px;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  color: #cbc9bb;
+  opacity: 0.3;
+}
+
+.navbar a.active {
+  color: #cbc9bb;
+  opacity: 0.3;
+}

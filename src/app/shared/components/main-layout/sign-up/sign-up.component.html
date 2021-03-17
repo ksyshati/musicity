@@ -1,0 +1,95 @@
+<div id="signUpPart" class="main-page-margin text-color">
+    <div class="row">
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-6">
+            <img src="./assets/images/main_page_sign_up.jpg" height="420">
+        </div>
+        <div class="col-md-4">
+            <h1 class="text-center heading-sign-up-margin">Welcome to Musicity</h1>
+            <form>
+                <div class="element-sign-up-margin">
+                    <div class="custom-radio" *ngFor="let sex of sexes">
+                        <label>
+                            <input
+                                    type="radio"
+                                    required="required"
+                                    [value]="sex.type"
+                                    ngModel="defaultSex"
+                                    name="sex">
+                            {{sex.text}}
+                        </label>
+                    </div>
+                    <div class="form-group mb-1">
+                        <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Last name"
+                                aria-label="Last name"
+                                aria-describedby="basic-addon1"
+                                ngModel
+                                required="required"
+                                name="lastName">
+                    </div>
+                    <div class="form-group mb-1">
+                        <input
+                                type="text"
+                                class="form-control"
+                                placeholder="First name"
+                                aria-label="First name"
+                                aria-describedby="basic-addon1"
+                                ngModel
+                                required="required"
+                                name="firstName">
+                    </div>
+                    <div
+                            class="form-group mb-1">
+                        <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Email"
+                                aria-label="Email"
+                                aria-describedby="basic-addon1"
+                                ngModel
+                                required="required"
+                                email>
+<!--                                name="email"-->
+<!--                                #email="ngModel">-->
+<!--                        <p *ngIf="email.invalid && email.touched">Please enter correct email</p>-->
+                    </div>
+                    <div
+                            class="form-group mb-1">
+                        <input
+                                type="password"
+                                class="form-control"
+                                placeholder="Password"
+                                aria-label="Password"
+                                aria-describedby="basic-addon1"
+                                ngModel
+                                required="required"
+                                name="password">
+                    </div>
+                    <div class="form-group mb-1">
+                        <input
+                                type="password"
+                                class="form-control"
+                                placeholder="Repeat password"
+                                aria-label="Repeat password"
+                                aria-describedby="basic-addon1"
+                                ngModel
+                                required="required"
+                                name="repeatPassword">
+                    </div>
+                </div>
+                <button
+                        type="submit"
+                        class="btn btn-outline-success home-img-center"
+                        >
+                    Sign up
+                </button>
+            </form>
+        </div>
+        <div class="col-md-1">
+        </div>
+    </div>
+</div>

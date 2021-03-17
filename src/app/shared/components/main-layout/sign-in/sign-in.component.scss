@@ -1,0 +1,59 @@
+.logo-center {
+  margin:0 30% 0 30%;
+  width:40%;
+}
+
+.home-img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.text-color {
+  color: #cbc9bb;
+}
+
+.main-page-margin{
+  margin: 5%;
+}
+.text-center{
+  text-align: center;
+}
+
+.heading-margin{
+  margin-top: 5%;
+}
+
+
+.element-margin{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.heading-sign-up-margin{
+  margin-top: 0%;
+}
+
+.element-sign-up-margin{
+  margin-top: 1%;
+  margin-bottom: 6%;
+}
+
+.bottom-sign-in-margin{
+  margin-top: 5%;
+}
+
+.sex-margin{
+  margin-left: 75px;
+}
+
+div{
+  font-family: "Bahnschrift";
+  color: #cbc9bb;
+}
+
+input.ng-invalid.ng-touched {
+  border: 3px solid #ff9e7d;
+  opacity: 0.5;
+  box-shadow: 0 0 0 3px #efe9e5, 0 0 3px #59626a
+}

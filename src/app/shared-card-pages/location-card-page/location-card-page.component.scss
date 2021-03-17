@@ -1,0 +1,79 @@
+.musical-card-text-name {
+  color: #cbc9bb;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+
+svg{
+  fill: #6cc0f5;
+}
+
+.rating{
+  font-size: 75px;
+  text-align: center;
+  margin-top: 49%;
+}
+
+div{
+  font-family: "Bahnschrift";
+  color: #cbc9bb;
+}
+
+
+.musical-card-text-ge {
+  color: #cbc9bb;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.musical-card-text-ev-ga-au-co {
+  color: #cbc9bb;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.main-photo {
+  border-radius: 300px;
+  margin-left: 35px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.gallery-photo {
+  border-radius: 100px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100px;
+}
+
+a:hover img  {
+  border: 3px solid #efe9e5;
+  opacity: 0.8;
+  box-shadow: 0 0 0 1px #efe9e5, 0 0 10px #59626a
+}
+
+.btn-circle {
+  width: 38px;
+  height: 38px;
+  border-radius: 19px;
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 16px;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.plus{
+  text-align: center;
+}
+
+.timetable{
+  margin-top: 200px;
+  font-size: 30px;
+  color: #cbc9bb;
+}
